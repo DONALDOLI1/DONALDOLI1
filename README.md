@@ -1,114 +1,153 @@
-<!-- PROFILE README — OLI OLI DONALD -->
-
 <div align="center">
+
+<img src="https://github.com/DONALDOLI1.png" width="112" alt="Photo de profil GitHub de OLI OLI DONALD" />
 
 # OLI OLI DONALD
 
-### Étudiant ingénieur en Génie Électrique et Systèmes Intelligents
-**Électronique · Systèmes embarqués · Conception de PCB · Automatisation**
+### Étudiant en Génie Électrique et Systèmes Intelligents
+**Électronique · Systèmes embarqués · Conception de PCB · IoT**
 
-<p>
-  <a href="https://github.com/DONALDOLI1">GitHub</a>
-</p>
+[GitHub](https://github.com/DONALDOLI1) · [Mes dépôts](https://github.com/DONALDOLI1?tab=repositories)
 
 </div>
 
 ---
 
-## 🇫🇷 À PROPOS
+## 🇫🇷 À propos
 
 Je suis étudiant en cycle ingénieur en **Génie Électrique et Systèmes Intelligents (GESI)** à l’École Nationale Supérieure Polytechnique de Douala, au Cameroun.
 
-Je m’intéresse particulièrement à la conception de systèmes électroniques, au développement de solutions embarquées et à la réalisation de circuits imprimés. J’aime associer matériel et logiciel pour concevoir des systèmes fonctionnels, pratiques et adaptés à des besoins concrets.
+Je m’intéresse à la conception électronique, aux systèmes embarqués, à l’Internet des objets et au développement de circuits imprimés. À travers mes projets, je cherche à consolider mes connaissances, expérimenter des solutions techniques et progresser dans la réalisation de systèmes associant matériel et logiciel.
 
-Mon approche repose sur l’apprentissage continu, l’expérimentation et la documentation rigoureuse de mes réalisations.
+Je partage ici une sélection de mes travaux, études et expérimentations.
 
-## COMPÉTENCES TECHNIQUES
+## Compétences & outils
 
-| Domaine | Technologies et outils |
-|---|---|
-| Systèmes embarqués et IoT | Arduino, ESP32, Raspberry Pi |
-| Programmation | C, C++, Python |
-| Conception et routage PCB | EasyEDA, KiCad |
-| Simulation électronique | Proteus, LTspice *(apprentissage en cours)* |
-| Conception 3D | Fusion 360 |
+<p>
+  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" alt="Arduino" />
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
+  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
+  <img src="https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white" alt="KiCad" />
+  <img src="https://img.shields.io/badge/EasyEDA-1765F6?style=flat-square&logoColor=white" alt="EasyEDA" />
+  <img src="https://img.shields.io/badge/Proteus-1B365D?style=flat-square&logoColor=white" alt="Proteus" />
+  <img src="https://img.shields.io/badge/Fusion%20360-000000?style=flat-square&logo=autodesk&logoColor=white" alt="Fusion 360" />
+</p>
 
-## PROJETS SÉLECTIONNÉS
+*LTspice : apprentissage en cours.*
 
-### 💡 LED Lamp — PCB Design
-Reproduction et conception du circuit électronique d’une lampe LED 220 V, avec travail sur le schéma et le routage du circuit imprimé. Projet de conception documentaire : la carte n’est pas présentée comme fabriquée ni testée physiquement.
+## Projets sélectionnés
 
-**Technologies :** conception électronique · PCB · EasyEDA
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/DONALDOLI1/LED-Lamp-PCB-Design">
+        <img src="https://raw.githubusercontent.com/DONALDOLI1/LED-Lamp-PCB-Design/main/images/AMPOULE%20LED%20ECO-2.jpg" alt="Conception PCB du projet LED Lamp" width="100%" />
+      </a>
+      <h3>LED Lamp PCB Design – T-Bulb</h3>
+      <p>Reproduction du circuit électronique d’une lampe LED économique et conception des circuits imprimés sous KiCad : carte d’alimentation, carte LED et routage.</p>
+      <p><sub>Projet au stade de conception numérique — carte non fabriquée ni testée physiquement.</sub></p>
+      <a href="https://github.com/DONALDOLI1/LED-Lamp-PCB-Design">Consulter le projet →</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/DONALDOLI1/Logic-gates-learning-board">
+        <img src="https://raw.githubusercontent.com/DONALDOLI1/Logic-gates-learning-board/main/images/BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES%20PANEL-2.jpg" alt="Conception de la carte pédagogique à portes logiques" width="100%" />
+      </a>
+      <h3>Logic Gates Learning Board</h3>
+      <p>Conception sous KiCad d’une carte pédagogique destinée à l’étude et à l’expérimentation des principales portes logiques de l’électronique numérique.</p>
+      <p><sub>Projet au stade de conception numérique — carte non fabriquée ni testée physiquement.</sub></p>
+      <a href="https://github.com/DONALDOLI1/Logic-gates-learning-board">Consulter le projet →</a>
+    </td>
+  </tr>
+</table>
 
-[Consulter le dépôt](https://github.com/DONALDOLI1/LED-Lamp-PCB-Design)
+[Voir l’ensemble de mes dépôts GitHub →](https://github.com/DONALDOLI1?tab=repositories)
 
-### 🔌 Logic Gates Learning Board
-Conception d’une carte électronique pédagogique consacrée à l’apprentissage et à l’expérimentation des portes logiques.
+## Formation & développement
 
-**Thèmes :** électronique numérique · logique combinatoire · conception de PCB
+- **Formation :** Génie Électrique et Systèmes Intelligents (GESI).
+- **Établissement :** École Nationale Supérieure Polytechnique de Douala — Cameroun.
+- **Certification visée :** Certified EasyEDA Professional — préparation en cours.
+- **Apprentissage actuel :** approfondissement de la simulation électronique avec LTspice.
 
-[Consulter le dépôt](https://github.com/DONALDOLI1/Logic-gates-learning-board)
+## Objectif
 
-## CERTIFICATION & DÉVELOPPEMENT
-
-- **Certified EasyEDA Professional** — préparation en cours.
-- Approfondissement progressif de la simulation électronique avec LTspice.
-- Développement continu de compétences en conception électronique et systèmes embarqués.
-
-## OBJECTIF PROFESSIONNEL
-
-Participer à la conception et au développement de solutions électroniques et intelligentes, de l’étude du besoin à la réalisation du prototype, en combinant électronique, programmation et conception de systèmes embarqués.
+Développer progressivement mes compétences en électronique et en systèmes intelligents, et contribuer à la conception de solutions technologiques utiles, fiables et adaptées aux besoins réels.
 
 ---
 
-## 🇬🇧 ABOUT ME
+## 🇬🇧 About me
 
-I am an **Electrical Engineering and Intelligent Systems (GESI)** engineering student at the National Advanced School of Engineering of Douala, Cameroon.
+I am an engineering-cycle student in **Electrical Engineering and Intelligent Systems (GESI)** at the National Advanced School of Engineering of Douala, Cameroon.
 
-My main interests include electronic system design, embedded development and printed circuit board (PCB) design. I enjoy combining hardware and software to build practical, functional solutions that address real-world needs.
+My interests include electronic design, embedded systems, the Internet of Things and printed circuit board development. Through my projects, I aim to strengthen my technical knowledge, experiment with practical solutions and improve my ability to develop systems that combine hardware and software.
 
-My work is driven by continuous learning, hands-on experimentation and clear technical documentation.
+This profile showcases a selection of my projects, studies and technical experiments.
 
-## TECHNICAL SKILLS
+## Skills & tools
 
-| Area | Technologies and tools |
-|---|---|
-| Embedded Systems & IoT | Arduino, ESP32, Raspberry Pi |
-| Programming | C, C++, Python |
-| PCB Design & Routing | EasyEDA, KiCad |
-| Electronic Simulation | Proteus, LTspice *(currently learning)* |
-| 3D Design | Fusion 360 |
+<p>
+  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" alt="Arduino" />
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
+  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
+  <img src="https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white" alt="KiCad" />
+  <img src="https://img.shields.io/badge/EasyEDA-1765F6?style=flat-square&logoColor=white" alt="EasyEDA" />
+  <img src="https://img.shields.io/badge/Proteus-1B365D?style=flat-square&logoColor=white" alt="Proteus" />
+  <img src="https://img.shields.io/badge/Fusion%20360-000000?style=flat-square&logo=autodesk&logoColor=white" alt="Fusion 360" />
+</p>
 
-## SELECTED PROJECTS
+*LTspice: currently learning.*
 
-### 💡 LED Lamp — PCB Design
-Reproduction and PCB design of the electronic circuit of a 220 V LED lamp, including schematic and PCB routing work. This is a design and documentation project; the board is not claimed to have been physically manufactured or tested.
+## Selected projects
 
-**Technologies:** electronic design · PCB · EasyEDA
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/DONALDOLI1/LED-Lamp-PCB-Design">
+        <img src="https://raw.githubusercontent.com/DONALDOLI1/LED-Lamp-PCB-Design/main/images/AMPOULE%20LED%20ECO-2.jpg" alt="LED Lamp PCB design" width="100%" />
+      </a>
+      <h3>LED Lamp PCB Design – T-Bulb</h3>
+      <p>Reproduction of an energy-saving LED lamp circuit and PCB design in KiCad, including the power supply board, LED board and routing.</p>
+      <p><sub>Digital design stage — not physically manufactured or tested.</sub></p>
+      <a href="https://github.com/DONALDOLI1/LED-Lamp-PCB-Design">View project →</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/DONALDOLI1/Logic-gates-learning-board">
+        <img src="https://raw.githubusercontent.com/DONALDOLI1/Logic-gates-learning-board/main/images/BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES%20PANEL-2.jpg" alt="Logic gates learning board design" width="100%" />
+      </a>
+      <h3>Logic Gates Learning Board</h3>
+      <p>KiCad design of an educational board for studying and experimenting with the main logic gates used in digital electronics.</p>
+      <p><sub>Digital design stage — not physically manufactured or tested.</sub></p>
+      <a href="https://github.com/DONALDOLI1/Logic-gates-learning-board">View project →</a>
+    </td>
+  </tr>
+</table>
 
-[View repository](https://github.com/DONALDOLI1/LED-Lamp-PCB-Design)
+[Explore all my GitHub repositories →](https://github.com/DONALDOLI1?tab=repositories)
 
-### 🔌 Logic Gates Learning Board
-Design of an educational electronic board for learning and experimenting with logic gates.
+## Education & continuous learning
 
-**Topics:** digital electronics · combinational logic · PCB design
+- **Field of study:** Electrical Engineering and Intelligent Systems (GESI).
+- **Institution:** National Advanced School of Engineering of Douala — Cameroon.
+- **Target certification:** Certified EasyEDA Professional — preparation in progress.
+- **Current learning:** developing practical electronic simulation skills with LTspice.
 
-[View repository](https://github.com/DONALDOLI1/Logic-gates-learning-board)
+## Goal
 
-## CERTIFICATION & CONTINUOUS LEARNING
-
-- **Certified EasyEDA Professional** — currently preparing.
-- Currently developing practical skills in electronic simulation with LTspice.
-- Continuously improving my knowledge of electronic design and embedded systems.
-
-## PROFESSIONAL GOAL
-
-To contribute to the design and development of intelligent electronic solutions, from requirements analysis to prototyping, by combining electronics, programming and embedded systems engineering.
+To steadily develop my skills in electronics and intelligent systems, and contribute to the design of useful, reliable technological solutions that address real-world needs.
 
 ---
 
 <div align="center">
 
-*Merci pour votre visite · Thank you for visiting*
+**OLI OLI DONALD**  
+*Learning · Designing · Building*
+
+[GitHub](https://github.com/DONALDOLI1)
 
 </div>
