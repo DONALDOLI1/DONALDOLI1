@@ -5,9 +5,9 @@
 # OLI OLI DONALD
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/DONALDOLI1/DONALDOLI1/main/assets/VID-20261108-WA0015.mp4" controls autoplay muted loop playsinline width="100%">
-    Votre navigateur ne prend pas en charge la lecture vidéo.
-  </video>
+  <a href="https://github.com/DONALDOLI1/DONALDOLI1/blob/main/assets/VID-20261108-WA0015.mp4">
+    ▶ <strong>Regarder ma vidéo de présentation · 8 secondes</strong>
+  </a>
 </p>
 
 ### Étudiant en Génie Électrique et Systèmes Intelligents
