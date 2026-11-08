@@ -4,17 +4,10 @@
 
 # OLI OLI DONALD
 
-<p align="center">
-  <a href="https://github.com/DONALDOLI1/DONALDOLI1/blob/main/assets/VID-20261108-WA0015.mp4">
-    ▶ <strong>Regarder ma vidéo de présentation · 8 secondes</strong>
-  </a>
-</p>
-
 ### Étudiant en Génie Électrique et Systèmes Intelligents
 **Électronique · Systèmes embarqués · Conception de PCB · IoT**
 
 [GitHub](https://github.com/DONALDOLI1) · [Mes dépôts](https://github.com/DONALDOLI1?tab=repositories)
-
 
 </div>
 
