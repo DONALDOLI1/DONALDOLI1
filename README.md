@@ -7,7 +7,9 @@
 ### Étudiant en Génie Électrique et Systèmes Intelligents
 **Électronique · Systèmes embarqués · Conception de PCB · IoT**
 
-[GitHub](https://github.com/DONALDOLI1) · [Mes dépôts](https://github.com/DONALDOLI1?tab=repositories)
+[GitHub](https://github.com/DONALDOLI1) · [Live calendar — Douala](https://donaldoli1.github.io/DONALDOLI1/clock/) · [Mes dépôts](https://github.com/DONALDOLI1?tab=repositories)
+
+[📅 Calendrier en direct — Douala](https://donaldoli1.github.io/DONALDOLI1/clock/)
 
 </div>
 
