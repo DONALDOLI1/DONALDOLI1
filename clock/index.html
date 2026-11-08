@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fa">
+  <title>Calendrier en direct | OLI OLI DONALD</title>
+  <style>
+    :root { color-scheme: light; --ink:#172033; --muted:#687386; --line:#e7eaf0; --accent:#315b91; --today:#eaf1fa; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; padding:32px 16px; display:grid; place-items:center; background:#f7f8fa; color:var(--ink); font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { width:min(100%,480px); background:#fff; border:1px solid var(--line); border-radius:18px; padding:28px; box-shadow:0 12px 35px rgba(23,32,51,.06); }
+    .eyebrow { color:var(--muted); font-size:.72rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; }
+    h1 { margin:8px 0 4px; font-size:1.45rem; letter-spacing:-.035em; }
+    .place { color:var(--muted); font-size:.9rem; }
+    .clock { margin:26px 0 8px; font-size:clamp(2.8rem,12vw,4.2rem); line-height:1; font-weight:650; letter-spacing:-.065em; font-variant-numeric:tabular-nums; }
+    .full-date { color:var(--muted); font-size:1rem; text-transform:capitalize; }
+    .rule { height:1px; background:var(--line); margin:25px 0 20px; }
+    .month-head { display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; }
+    .month { font-weight:650; text-transform:capitalize; }
+    .year { color:var(--muted); font-size:.9rem; }
+    .grid { display:grid; grid-template-columns:repeat(7,1fr); gap:6px; text-align:center; }
+    .weekday { color:var(--muted); font-size:.72rem; font-weight:650; padding:7px 0; }
+    .day { display:grid; place-items:center; aspect-ratio:1; border-radius:50%; font-size:.88rem; }
+    .day.today { background:var(--today); color:var(--accent); font-weight:750; outline:1px solid #d5e1f0; }
+    .day.empty { visibility:hidden; }
+    footer { margin-top:24px; color:var(--muted); font-size:.78rem; text-align:center; }
+    footer a { color:var(--accent); text-decoration:none; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Calendrier personnel</div>
+    <h1>OLI OLI DONALD</h1>
+    <div class="place">Heure locale · Douala, Cameroun</div>
+    <div class="clock" id="clock" aria-live="off">--:--:--</div>
+    <div class="full-date" id="full-date">Chargement de la date…</div>
+    <div class="rule"></div>
+    <div class="month-head">
+      <div class="month" id="month">—</div>
+      <div class="year" id="year">—</div>
+    </div>
+    <div class="grid" id="calendar" aria-label="Calendrier du mois"></div>
+    <footer>Fuseau horaire : Africa/Douala · <a href="https://github.com/DONALDOLI1">Profil GitHub</a></footer>
+  </main>
+  <script>
+    const zone = 'Africa/Douala';
+    const nowInDouala = () => {
+      const parts = new Intl.DateTimeFormat('en-CA', {
+        timeZone: zone, year:'numeric', month:'numeric', day:'numeric'
+      }).formatToParts(new Date());
+      const get = type => Number(parts.find(p => p.type === type).value);
+      return { year:get('year'), month:get('month'), day:get('day') };
+    };
+    const weekdays = ['Lun','Mar','Mer','Jeu','Ven','Sam','Dim'];
+    function renderCalendar(y, m, today) {
+      const root = document.getElementById('calendar');
+      root.replaceChildren();
+      weekdays.forEach(name => {
+        const el = document.createElement('div');
+        el.className = 'weekday'; el.textContent = name; root.append(el);
+      });
+      const firstDay = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
+      const offset = (firstDay + 6) % 7;
+      const count = new Date(Date.UTC(y, m, 0)).getUTCDate();
+      for (let i = 0; i < offset; i++) {
+        const blank = document.createElement('div'); blank.className = 'day empty'; root.append(blank);
+      }
+      for (let d = 1; d <= count; d++) {
+        const el = document.createElement('div');
+        el.className = 'day' + (d === today ? ' today' : '');
+        el.textContent = d;
+        if (d === today) el.setAttribute('aria-current', 'date');
+        root.append(el);
+      }
+    }
+    let lastKey = '';
+    function update() {
+      const now = new Date();
+      const d = nowInDouala();
+      document.getElementById('clock').textContent = new Intl.DateTimeFormat('fr-FR', {
+        timeZone:zone, hour:'2-digit', minute:'2-digit', second:'2-digit', hourCycle:'h23'
+      }).format(now);
+      document.getElementById('full-date').textContent = new Intl.DateTimeFormat('fr-FR', {
+        timeZone:zone, weekday:'long', day:'numeric', month:'long', year:'numeric'
+      }).format(now);
+      const key = d.year + '-' + d.month;
+      if (key !== lastKey) {
+        document.getElementById('month').textContent = new Intl.DateTimeFormat('fr-FR', {
+          timeZone:zone, month:'long'
+        }).format(new Date(Date.UTC(d.year, d.month - 1, 1, 12)));
+        document.getElementById('year').textContent = d.year;
+        renderCalendar(d.year, d.month, d.day);
+        lastKey = key;
+      } else {
+        const active = document.querySelector('.day.today');
+        if (active && Number(active.textContent) !== d.day) {
+          renderCalendar(d.year, d.month, d.day);
+        }
+      }
+    }
+    update();
+    setInterval(update, 1000);
+  </script>
+</body>
+</html>
