@@ -44,32 +44,35 @@ Je partage ici une sélection de mes travaux, études et expérimentations.
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <a href="https://github.com/DONALDOLI1/LED-Lamp-PCB-Design">
         <img src="https://raw.githubusercontent.com/DONALDOLI1/LED-Lamp-PCB-Design/main/images/AMPOULE%20LED%20ECO-2.jpg" alt="Conception PCB du projet LED Lamp" width="100%" />
       </a>
       <h3>LED Lamp PCB Design – T-Bulb</h3>
       <p>Reproduction du circuit électronique d’une lampe LED économique et conception des circuits imprimés sous KiCad : carte d’alimentation, carte LED et routage.</p>
-      <p><sub>Projet au stade de conception numérique — carte non fabriquée ni testée physiquement.</sub></p>
+      <p><sub>Conception numérique — carte non fabriquée ni testée physiquement.</sub></p>
       <a href="https://github.com/DONALDOLI1/LED-Lamp-PCB-Design">Consulter le projet →</a>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <a href="https://github.com/DONALDOLI1/Logic-gates-learning-board">
         <img src="https://raw.githubusercontent.com/DONALDOLI1/Logic-gates-learning-board/main/images/BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES%20PANEL-2.jpg" alt="Conception de la carte pédagogique à portes logiques" width="100%" />
       </a>
       <h3>Logic Gates Learning Board</h3>
       <p>Conception sous KiCad d’une carte pédagogique destinée à l’étude et à l’expérimentation des principales portes logiques de l’électronique numérique.</p>
-      <p><sub>Projet au stade de conception numérique — carte non fabriquée ni testée physiquement.</sub></p>
+      <p><sub>Conception numérique — carte non fabriquée ni testée physiquement.</sub></p>
       <a href="https://github.com/DONALDOLI1/Logic-gates-learning-board">Consulter le projet →</a>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board">
+        <img src="https://raw.githubusercontent.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board/main/images/IMG-20260427-WA0025-2.jpg" alt="Vue 3D de la carte de développement ATmega328P" width="100%" />
+      </a>
+      <h3>ATmega328P Custom Arduino Board</h3>
+      <p>Conception sous KiCad 9.0.7 d’une carte personnalisée autour de l’ATmega328P, avec régulation 5 V / 3,3 V et connectique d’entrées/sorties.</p>
+      <p><sub>Carte fabriquée, assemblée et testée — programmation Arduino IDE via adaptateur FTDI USB-série.</sub></p>
+      <a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board">Consulter le projet →</a>
     </td>
   </tr>
 </table>
-
-<h3>ATmega328P Custom Arduino Board</h3>
-
-<p>Conception d’une carte de développement personnalisée autour du microcontrôleur ATmega328P sous KiCad 9.0.7. La carte a été fabriquée, assemblée et testée. Programmation avec Arduino IDE et téléversement via un adaptateur FTDI USB-série.</p>
-
-<a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board">Consulter le projet →</a>
 
 [Voir l’ensemble de mes dépôts GitHub →](https://github.com/DONALDOLI1?tab=repositories)
 
@@ -115,32 +118,35 @@ This profile showcases a selection of my projects, studies and technical experim
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <a href="https://github.com/DONALDOLI1/LED-Lamp-PCB-Design">
         <img src="https://raw.githubusercontent.com/DONALDOLI1/LED-Lamp-PCB-Design/main/images/AMPOULE%20LED%20ECO-2.jpg" alt="LED Lamp PCB design" width="100%" />
       </a>
       <h3>LED Lamp PCB Design – T-Bulb</h3>
       <p>Reproduction of an energy-saving LED lamp circuit and PCB design in KiCad, including the power supply board, LED board and routing.</p>
-      <p><sub>Digital design stage — not physically manufactured or tested.</sub></p>
+      <p><sub>Digital design — not physically manufactured or tested.</sub></p>
       <a href="https://github.com/DONALDOLI1/LED-Lamp-PCB-Design">View project →</a>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <a href="https://github.com/DONALDOLI1/Logic-gates-learning-board">
         <img src="https://raw.githubusercontent.com/DONALDOLI1/Logic-gates-learning-board/main/images/BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES%20PANEL-2.jpg" alt="Logic gates learning board design" width="100%" />
       </a>
       <h3>Logic Gates Learning Board</h3>
       <p>KiCad design of an educational board for studying and experimenting with the main logic gates used in digital electronics.</p>
-      <p><sub>Digital design stage — not physically manufactured or tested.</sub></p>
+      <p><sub>Digital design — not physically manufactured or tested.</sub></p>
       <a href="https://github.com/DONALDOLI1/Logic-gates-learning-board">View project →</a>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board">
+        <img src="https://raw.githubusercontent.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board/main/images/IMG-20260427-WA0025-2.jpg" alt="3D view of the custom ATmega328P development board" width="100%" />
+      </a>
+      <h3>ATmega328P Custom Arduino Board</h3>
+      <p>KiCad 9.0.7 design of a custom ATmega328P board featuring 5 V / 3.3 V regulation and I/O connectivity.</p>
+      <p><sub>Board manufactured, assembled and tested — programmed with Arduino IDE via an FTDI USB-to-serial adapter.</sub></p>
+      <a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board">View project →</a>
     </td>
   </tr>
 </table>
-
-<h3>ATmega328P Custom Arduino Board</h3>
-
-<p>Design of a custom ATmega328P development board using KiCad 9.0.7. The board was manufactured, assembled and tested. Programming is performed with the Arduino IDE, with firmware uploaded through an FTDI USB-to-serial adapter.</p>
-
-<a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board">View project →</a>
 
 [Explore all my GitHub repositories →](https://github.com/DONALDOLI1?tab=repositories)
 
