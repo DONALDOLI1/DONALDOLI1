@@ -65,6 +65,12 @@ Je partage ici une sélection de mes travaux, études et expérimentations.
   </tr>
 </table>
 
+<h3>ATmega328P Custom Arduino Board</h3>
+
+<p>Conception d’une carte de développement personnalisée autour du microcontrôleur ATmega328P sous KiCad 9.0.7. La carte a été fabriquée, assemblée et testée. Programmation avec Arduino IDE et téléversement via un adaptateur FTDI USB-série.</p>
+
+<a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board">Consulter le projet →</a>
+
 [Voir l’ensemble de mes dépôts GitHub →](https://github.com/DONALDOLI1?tab=repositories)
 
 ## Formation & développement
@@ -129,6 +135,12 @@ This profile showcases a selection of my projects, studies and technical experim
     </td>
   </tr>
 </table>
+
+<h3>ATmega328P Custom Arduino Board</h3>
+
+<p>Design of a custom ATmega328P development board using KiCad 9.0.7. The board was manufactured, assembled and tested. Programming is performed with the Arduino IDE, with firmware uploaded through an FTDI USB-to-serial adapter.</p>
+
+<a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board">View project →</a>
 
 [Explore all my GitHub repositories →](https://github.com/DONALDOLI1?tab=repositories)
 
