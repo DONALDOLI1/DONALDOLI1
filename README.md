@@ -38,9 +38,26 @@ Je partage ici une sélection de mes travaux, études et expérimentations.
   <img src="https://img.shields.io/badge/Fusion%20360-000000?style=flat-square&logo=autodesk&logoColor=white" alt="Fusion 360" />
 </p>
 
+*Fabrication de PCB par procédé photochimique.*  
 *LTspice : apprentissage en cours.*
 
 ## Projets sélectionnés
+
+### ESP32-Based Horizontal Laminar Flow Hood
+
+<p align="center">
+  <a href="https://github.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood">
+    <img src="https://raw.githubusercontent.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood/main/3D_DESIGN/IMG-20261109-WA0029.jpg" alt="Vue 3D de la carte de commande de la hotte à flux laminaire horizontale" width="620" />
+  </a>
+</p>
+
+Conception et réalisation d'un système de commande pour une hotte à flux laminaire horizontale autour d'un ESP32. Le projet intègre la gestion de l'éclairage, de l'éclairage UV avec arrêt temporisé et sécurité par détection de présence, la commande de ventilation à deux vitesses et la surveillance de la pression.
+
+**Carte électronique conçue sous KiCad, fabriquée par procédé photochimique, assemblée et intégrée au prototype. Tests finaux réalisés.**
+
+<p align="center">
+  <a href="https://github.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood">Consulter le projet →</a>
+</p>
 
 <table>
   <tr>
@@ -112,9 +129,26 @@ This profile showcases a selection of my projects, studies and technical experim
   <img src="https://img.shields.io/badge/Fusion%20360-000000?style=flat-square&logo=autodesk&logoColor=white" alt="Fusion 360" />
 </p>
 
+*Photochemical PCB manufacturing.*  
 *LTspice: currently learning.*
 
 ## Selected projects
+
+### ESP32-Based Horizontal Laminar Flow Hood
+
+<p align="center">
+  <a href="https://github.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood">
+    <img src="https://raw.githubusercontent.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood/main/3D_DESIGN/IMG-20261109-WA0029.jpg" alt="3D view of the horizontal laminar flow hood control board" width="620" />
+  </a>
+</p>
+
+Design and implementation of an ESP32-based control system for a horizontal laminar flow hood. The project includes normal lighting control, timed UV lighting with a presence-detection safety shutdown, two-speed ventilation control and pressure monitoring.
+
+**PCB designed in KiCad, manufactured using a photochemical process, assembled and integrated into the prototype. Final tests completed.**
+
+<p align="center">
+  <a href="https://github.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood">View project →</a>
+</p>
 
 <table>
   <tr>
