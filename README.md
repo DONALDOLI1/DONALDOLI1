@@ -43,6 +43,24 @@ Je partage ici une sélection de mes travaux, études et expérimentations.
 
 ## Projets sélectionnés
 
+### Terminal Adapter for ESP32
+
+<p align="center">
+  <a href="https://github.com/DONALDOLI1/ADAPTER-FOR-ESP32">
+    <img src="https://raw.githubusercontent.com/DONALDOLI1/ADAPTER-FOR-ESP32/main/images/IMG-20261109-WA0033.jpg" alt="Vue 3D de la carte adaptatrice pour ESP32" width="620" />
+  </a>
+</p>
+
+Conception sous KiCad d'une carte d'adaptation pour ESP32 DevKitC-32D. Le projet vise à faciliter le raccordement des capteurs et périphériques grâce à des borniers à vis disposés sur les deux côtés de la carte.
+
+**Schéma électronique, PCB et routage réalisés sous KiCad. Carte non fabriquée, non assemblée et non testée physiquement.**
+
+<p align="center">
+  <a href="https://github.com/DONALDOLI1/ADAPTER-FOR-ESP32">Consulter le projet →</a>
+</p>
+
+
+
 ### ESP32-Based Horizontal Laminar Flow Hood
 
 <p align="center">
@@ -133,6 +151,24 @@ This profile showcases a selection of my projects, studies and technical experim
 *LTspice: currently learning.*
 
 ## Selected projects
+
+### ESP32 Terminal Adapter
+
+<p align="center">
+  <a href="https://github.com/DONALDOLI1/ADAPTER-FOR-ESP32">
+    <img src="https://raw.githubusercontent.com/DONALDOLI1/ADAPTER-FOR-ESP32/main/images/IMG-20261109-WA0033.jpg" alt="3D view of the ESP32 terminal adapter board" width="620" />
+  </a>
+</p>
+
+KiCad design of an adapter board for the ESP32 DevKitC-32D. The project aims to simplify sensor and peripheral wiring through screw terminal blocks arranged along both sides of the board.
+
+**Electronic schematic, PCB layout and routing completed in KiCad. Board not physically manufactured, assembled or tested.**
+
+<p align="center">
+  <a href="https://github.com/DONALDOLI1/ADAPTER-FOR-ESP32">View project →</a>
+</p>
+
+
 
 ### ESP32-Based Horizontal Laminar Flow Hood
 
