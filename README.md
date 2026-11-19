@@ -43,21 +43,25 @@ Je partage ici une sélection de mes travaux, études et expérimentations.
 
 ## Projet mis en avant
 
-### LED Display Control Board
+### Arduino Nano Terminal Adapter
 
 <p align="center">
-<a href="https://github.com/DONALDOLI1/LED-Display-Control-Board"><img src="https://raw.githubusercontent.com/DONALDOLI1/LED-Display-Control-Board/main/3D_DESIGN/IMG-20261115-WA0006.jpg" alt="Vue 3D de la carte de commande d'affichage LED" width="620" /></a>
+<a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER"><img src="https://raw.githubusercontent.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER/main/images/ADAPTATEUR%20NANO-2.jpg" alt="Carte adaptatrice pour Arduino Nano" width="620" /></a>
 </p>
 
-Conception d'une carte électronique de commande pour un affichage LED séquentiel présentant le message « BIENVENUE EN GESI 3 ». L'architecture repose sur une logique câblée utilisant un NE555, des registres à décalage CD4015 et des transistors BC547.
+Conception sous KiCad d'une carte d'adaptation pour Arduino Nano, équipée de borniers à vis afin de faciliter le raccordement des broches et des périphériques.
 
-**Schéma électronique, conception PCB et fabrication photochimique réalisés. Assemblage et essais non réalisés par le concepteur ; un retour positif a toutefois confirmé le fonctionnement du dispositif.**
+**Schéma électronique et conception PCB réalisés. Les contrôles DRC du schéma et du circuit imprimé ont été réussis sans erreur. La carte n'a pas été fabriquée, assemblée ni testée physiquement.**
 
-<p align="center"><a href="https://github.com/DONALDOLI1/LED-Display-Control-Board">Consulter le projet →</a></p>
+<p align="center"><a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER">Consulter le projet →</a></p>
 
 ## Projets sélectionnés
 
 <table>
+<tr><td colspan="2" valign="top">
+<a href="https://github.com/DONALDOLI1/LED-Display-Control-Board"><img src="https://raw.githubusercontent.com/DONALDOLI1/LED-Display-Control-Board/main/3D_DESIGN/IMG-20261115-WA0006.jpg" alt="Vue 3D de la carte de commande d'affichage LED" width="100%" /></a>
+<h3>LED Display Control Board</h3><p>Conception d'une carte électronique de commande pour un affichage LED séquentiel présentant le message « BIENVENUE EN GESI 3 ». L'architecture repose sur une logique câblée utilisant un NE555, des registres à décalage CD4015 et des transistors BC547.</p><p><sub>Schéma électronique, conception PCB et fabrication photochimique réalisés. Assemblage et essais non réalisés par le concepteur ; un retour positif a toutefois confirmé le fonctionnement du dispositif.</sub></p><a href="https://github.com/DONALDOLI1/LED-Display-Control-Board">Consulter le projet →</a>
+</td></tr>
 <tr><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood"><img src="https://raw.githubusercontent.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood/main/3D_DESIGN/IMG-20261109-WA0029.jpg" alt="Carte de commande de la hotte à flux laminaire" width="100%" /></a>
 <h3>ESP32-Based Horizontal Laminar Flow Hood</h3><p>Système de commande ESP32 pour hotte à flux laminaire : éclairage, UV temporisé avec sécurité par détection de présence, ventilation à deux vitesses et surveillance de pression.</p><p><sub>PCB fabriqué, assemblé, intégré et testé.</sub></p><a href="https://github.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood">Consulter le projet →</a>
@@ -75,12 +79,6 @@ Conception d'une carte électronique de commande pour un affichage LED séquenti
 <tr><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board"><img src="https://raw.githubusercontent.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board/main/images/IMG-20260427-WA0025-2.jpg" alt="Carte de développement ATmega328P" width="100%" /></a>
 <h3>ATmega328P Custom Arduino Board</h3><p>Conception sous KiCad 9.0.7 d’une carte personnalisée autour de l’ATmega328P, avec régulation 5 V / 3,3 V et connectique d’entrées/sorties.</p><p><sub>Carte fabriquée, assemblée et testée — programmation Arduino IDE via adaptateur FTDI USB-série.</sub></p><a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board">Consulter le projet →</a>
-</td></tr></table>
-
-<table>
-<tr><td width="50%" valign="top">
-<a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER"><img src="https://raw.githubusercontent.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER/main/images/ADAPTATEUR%20NANO-2.jpg" alt="Arduino Nano Terminal Adapter" width="100%" /></a>
-<h3>Arduino Nano Terminal Adapter</h3><p>Conception sous KiCad d'une carte d'adaptation pour Arduino Nano, avec borniers à vis destinés à faciliter le raccordement des broches et des périphériques.</p><p><sub>Conception numérique — contrôles DRC réussis sans erreur ; carte non fabriquée, assemblée ni testée physiquement.</sub></p><a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER">Consulter le projet →</a>
 </td></tr></table>
 
 [Voir l’ensemble de mes dépôts GitHub →](https://github.com/DONALDOLI1?tab=repositories)
@@ -126,21 +124,25 @@ This profile showcases a selection of my projects, studies and technical experim
 
 ## Featured project
 
-### LED Display Control Board
+### Arduino Nano Terminal Adapter
 
 <p align="center">
-<a href="https://github.com/DONALDOLI1/LED-Display-Control-Board"><img src="https://raw.githubusercontent.com/DONALDOLI1/LED-Display-Control-Board/main/3D_DESIGN/IMG-20261115-WA0006.jpg" alt="3D view of the LED display control board" width="620" /></a>
+<a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER"><img src="https://raw.githubusercontent.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER/main/images/ADAPTATEUR%20NANO-2.jpg" alt="Arduino Nano adapter board" width="620" /></a>
 </p>
 
-Design of an electronic control board for a sequential LED display showing the message "BIENVENUE EN GESI 3". The architecture uses hardwired logic based on an NE555, CD4015 shift registers and BC547 transistors.
+KiCad design of an Arduino Nano adapter board featuring screw terminals to simplify pin and peripheral connections.
 
-**Schematic, PCB design and photochemical fabrication completed. Assembly and testing were not performed by the designer; positive feedback was nevertheless received confirming that the device worked.**
+**Schematic and PCB design completed. DRC checks for both the schematic and PCB passed with no errors. The board has not been physically manufactured, assembled or tested.**
 
-<p align="center"><a href="https://github.com/DONALDOLI1/LED-Display-Control-Board">View project →</a></p>
+<p align="center"><a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER">View project →</a></p>
 
 ## Selected projects
 
 <table>
+<tr><td colspan="2" valign="top">
+<a href="https://github.com/DONALDOLI1/LED-Display-Control-Board"><img src="https://raw.githubusercontent.com/DONALDOLI1/LED-Display-Control-Board/main/3D_DESIGN/IMG-20261115-WA0006.jpg" alt="3D view of the LED display control board" width="100%" /></a>
+<h3>LED Display Control Board</h3><p>Design of an electronic control board for a sequential LED display showing the message "BIENVENUE EN GESI 3". The architecture uses hardwired logic based on an NE555, CD4015 shift registers and BC547 transistors.</p><p><sub>Schematic, PCB design and photochemical fabrication completed. Assembly and testing were not performed by the designer; positive feedback was nevertheless received confirming that the device worked.</sub></p><a href="https://github.com/DONALDOLI1/LED-Display-Control-Board">View project →</a>
+</td></tr>
 <tr><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood"><img src="https://raw.githubusercontent.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood/main/3D_DESIGN/IMG-20261109-WA0029.jpg" alt="Horizontal laminar flow hood control board" width="100%" /></a>
 <h3>ESP32-Based Horizontal Laminar Flow Hood</h3><p>ESP32-based control system for a laminar flow hood: lighting, timed UV with presence-detection safety shutdown, two-speed ventilation and pressure monitoring.</p><p><sub>PCB manufactured, assembled, integrated and tested.</sub></p><a href="https://github.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood">View project →</a>
@@ -158,12 +160,6 @@ Design of an electronic control board for a sequential LED display showing the m
 <tr><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board"><img src="https://raw.githubusercontent.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board/main/images/IMG-20260427-WA0025-2.jpg" alt="Custom ATmega328P development board" width="100%" /></a>
 <h3>ATmega328P Custom Arduino Board</h3><p>KiCad 9.0.7 design of a custom ATmega328P board featuring 5 V / 3.3 V regulation and I/O connectivity.</p><p><sub>Board manufactured, assembled and tested — programmed with Arduino IDE via an FTDI USB-to-serial adapter.</sub></p><a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board">View project →</a>
-</td></tr></table>
-
-<table>
-<tr><td width="50%" valign="top">
-<a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER"><img src="https://raw.githubusercontent.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER/main/images/ADAPTATEUR%20NANO-2.jpg" alt="Arduino Nano Terminal Adapter" width="100%" /></a>
-<h3>Arduino Nano Terminal Adapter</h3><p>KiCad design of an Arduino Nano adapter board featuring screw terminals to simplify pin and peripheral connections.</p><p><sub>Digital design — DRC checks passed with no errors; board not physically manufactured, assembled or tested.</sub></p><a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER">View project →</a>
 </td></tr></table>
 
 [Explore all my GitHub repositories →](https://github.com/DONALDOLI1?tab=repositories)
