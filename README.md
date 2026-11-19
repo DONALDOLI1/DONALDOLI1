@@ -4,7 +4,7 @@
 
 # OLI OLI DONALD
 
-<img src="https://raw.githubusercontent.com/DONALDOLI1/DONALDOLI1/main/assets/WhatsApp%20Image%202026-06-18%20at%2018.27.09.jpeg" width="320" alt="Photo de présentation de OLI OLI DONALD" style="border-radius: 16px;" />
+<img src="https://raw.githubusercontent.com/DONALDOLI1/DONALDOLI1/main/assets/portfolio-slideshow.gif" width="520" alt="Diaporama automatique de présentation de OLI OLI DONALD" />
 
 ### Étudiant en Génie Électrique et Systèmes Intelligents
 **Électronique · Systèmes embarqués · Conception de PCB · IoT**
