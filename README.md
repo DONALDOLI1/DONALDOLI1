@@ -57,28 +57,28 @@ Conception sous KiCad d'une carte d'adaptation pour Arduino Nano, équipée de b
 
 
 <table>
-<tr><td colspan="2" valign="top">
+<tr><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/LED-Display-Control-Board"><img src="https://raw.githubusercontent.com/DONALDOLI1/LED-Display-Control-Board/main/3D_DESIGN/IMG-20261115-WA0006.jpg" alt="Vue 3D de la carte de commande d'affichage LED" width="100%" /></a>
 <h3>LED Display Control Board</h3><p>Conception d'une carte électronique de commande pour un affichage LED séquentiel présentant le message « BIENVENUE EN GESI 3 ». L'architecture repose sur une logique câblée utilisant un NE555, des registres à décalage CD4015 et des transistors BC547.</p><p><sub>Schéma électronique, conception PCB et fabrication photochimique réalisés. Assemblage et essais non réalisés par le concepteur ; un retour positif a toutefois confirmé le fonctionnement du dispositif.</sub></p><a href="https://github.com/DONALDOLI1/LED-Display-Control-Board">Consulter le projet →</a>
-</td></tr>
-<tr><td width="50%" valign="top">
+</td><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood"><img src="https://raw.githubusercontent.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood/main/3D_DESIGN/IMG-20261109-WA0029.jpg" alt="Carte de commande de la hotte à flux laminaire" width="100%" /></a>
 <h3>ESP32-Based Horizontal Laminar Flow Hood</h3><p>Système de commande ESP32 pour hotte à flux laminaire : éclairage, UV temporisé avec sécurité par détection de présence, ventilation à deux vitesses et surveillance de pression.</p><p><sub>PCB fabriqué, assemblé, intégré et testé.</sub></p><a href="https://github.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood">Consulter le projet →</a>
-</td><td width="50%" valign="top">
+</td></tr>
+<tr><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/ADAPTER-FOR-ESP32"><img src="https://raw.githubusercontent.com/DONALDOLI1/ADAPTER-FOR-ESP32/main/images/IMG-20261109-WA0033.jpg" alt="Carte adaptatrice pour ESP32" width="100%" /></a>
 <h3>Terminal Adapter for ESP32</h3><p>Conception sous KiCad d'une carte d'adaptation pour ESP32 DevKitC-32D, avec borniers à vis pour faciliter le raccordement des capteurs et périphériques.</p><p><sub>Conception numérique — carte non fabriquée, assemblée ni testée physiquement.</sub></p><a href="https://github.com/DONALDOLI1/ADAPTER-FOR-ESP32">Consulter le projet →</a>
-</td></tr>
-<tr><td width="50%" valign="top">
+</td><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/LED-Lamp-PCB-Design"><img src="https://raw.githubusercontent.com/DONALDOLI1/LED-Lamp-PCB-Design/main/images/AMPOULE%20LED%20ECO-2.jpg" alt="Conception PCB du projet LED Lamp" width="100%" /></a>
 <h3>LED Lamp PCB Design – T-Bulb</h3><p>Reproduction du circuit électronique d’une lampe LED économique et conception des circuits imprimés sous KiCad : carte d’alimentation, carte LED et routage.</p><p><sub>Conception numérique — carte non fabriquée ni testée physiquement.</sub></p><a href="https://github.com/DONALDOLI1/LED-Lamp-PCB-Design">Consulter le projet →</a>
-</td><td width="50%" valign="top">
-<a href="https://github.com/DONALDOLI1/Logic-gates-learning-board"><img src="https://raw.githubusercontent.com/DONALDOLI1/Logic-gates-learning-board/main/images/BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES%20PANEL-2.jpg" alt="Carte pédagogique à portes logiques" width="100%" /></a>
-<h3>Logic Gates Learning Board</h3><p>Conception sous KiCad d’une carte pédagogique destinée à l’étude et à l’expérimentation des principales portes logiques de l’électronique numérique.</p><p><sub>Conception numérique — carte non fabriquée ni testée physiquement.</sub></p><a href="https://github.com/DONALDOLI1/Logic-gates-learning-board">Consulter le projet →</a>
 </td></tr>
 <tr><td width="50%" valign="top">
+<a href="https://github.com/DONALDOLI1/Logic-gates-learning-board"><img src="https://raw.githubusercontent.com/DONALDOLI1/Logic-gates-learning-board/main/images/BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES%20PANEL-2.jpg" alt="Carte pédagogique à portes logiques" width="100%" /></a>
+<h3>Logic Gates Learning Board</h3><p>Conception sous KiCad d’une carte pédagogique destinée à l’étude et à l’expérimentation des principales portes logiques de l’électronique numérique.</p><p><sub>Conception numérique — carte non fabriquée ni testée physiquement.</sub></p><a href="https://github.com/DONALDOLI1/Logic-gates-learning-board">Consulter le projet →</a>
+</td><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board"><img src="https://raw.githubusercontent.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board/main/images/IMG-20260427-WA0025-2.jpg" alt="Carte de développement ATmega328P" width="100%" /></a>
 <h3>ATmega328P Custom Arduino Board</h3><p>Conception sous KiCad 9.0.7 d’une carte personnalisée autour de l’ATmega328P, avec régulation 5 V / 3,3 V et connectique d’entrées/sorties.</p><p><sub>Carte fabriquée, assemblée et testée — programmation Arduino IDE via adaptateur FTDI USB-série.</sub></p><a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board">Consulter le projet →</a>
-</td></tr></table>
+</td></tr>
+</table>
 
 [Voir l’ensemble de mes dépôts GitHub →](https://github.com/DONALDOLI1?tab=repositories)
 
@@ -137,28 +137,28 @@ KiCad design of an Arduino Nano adapter board featuring screw terminals to simpl
 
 
 <table>
-<tr><td colspan="2" valign="top">
+<tr><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/LED-Display-Control-Board"><img src="https://raw.githubusercontent.com/DONALDOLI1/LED-Display-Control-Board/main/3D_DESIGN/IMG-20261115-WA0006.jpg" alt="3D view of the LED display control board" width="100%" /></a>
 <h3>LED Display Control Board</h3><p>Design of an electronic control board for a sequential LED display showing the message "BIENVENUE EN GESI 3". The architecture uses hardwired logic based on an NE555, CD4015 shift registers and BC547 transistors.</p><p><sub>Schematic, PCB design and photochemical fabrication completed. Assembly and testing were not performed by the designer; positive feedback was nevertheless received confirming that the device worked.</sub></p><a href="https://github.com/DONALDOLI1/LED-Display-Control-Board">View project →</a>
-</td></tr>
-<tr><td width="50%" valign="top">
+</td><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood"><img src="https://raw.githubusercontent.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood/main/3D_DESIGN/IMG-20261109-WA0029.jpg" alt="Horizontal laminar flow hood control board" width="100%" /></a>
 <h3>ESP32-Based Horizontal Laminar Flow Hood</h3><p>ESP32-based control system for a laminar flow hood: lighting, timed UV with presence-detection safety shutdown, two-speed ventilation and pressure monitoring.</p><p><sub>PCB manufactured, assembled, integrated and tested.</sub></p><a href="https://github.com/DONALDOLI1/ESP32-Horizontal-Laminar-Flow-Hood">View project →</a>
-</td><td width="50%" valign="top">
+</td></tr>
+<tr><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/ADAPTER-FOR-ESP32"><img src="https://raw.githubusercontent.com/DONALDOLI1/ADAPTER-FOR-ESP32/main/images/IMG-20261109-WA0033.jpg" alt="ESP32 terminal adapter board" width="100%" /></a>
 <h3>Terminal Adapter for ESP32</h3><p>KiCad design of an adapter board for the ESP32 DevKitC-32D, with screw terminals to simplify sensor and peripheral wiring.</p><p><sub>Digital design — not physically manufactured, assembled or tested.</sub></p><a href="https://github.com/DONALDOLI1/ADAPTER-FOR-ESP32">View project →</a>
-</td></tr>
-<tr><td width="50%" valign="top">
+</td><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/LED-Lamp-PCB-Design"><img src="https://raw.githubusercontent.com/DONALDOLI1/LED-Lamp-PCB-Design/main/images/AMPOULE%20LED%20ECO-2.jpg" alt="LED Lamp PCB design" width="100%" /></a>
 <h3>LED Lamp PCB Design – T-Bulb</h3><p>Reproduction of an energy-saving LED lamp circuit and PCB design in KiCad, including the power supply board, LED board and routing.</p><p><sub>Digital design — not physically manufactured or tested.</sub></p><a href="https://github.com/DONALDOLI1/LED-Lamp-PCB-Design">View project →</a>
-</td><td width="50%" valign="top">
-<a href="https://github.com/DONALDOLI1/Logic-gates-learning-board"><img src="https://raw.githubusercontent.com/DONALDOLI1/Logic-gates-learning-board/main/images/BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES%20PANEL-2.jpg" alt="Logic gates learning board" width="100%" /></a>
-<h3>Logic Gates Learning Board</h3><p>KiCad design of an educational board for studying and experimenting with the main logic gates used in digital electronics.</p><p><sub>Digital design — not physically manufactured or tested.</sub></p><a href="https://github.com/DONALDOLI1/Logic-gates-learning-board">View project →</a>
 </td></tr>
 <tr><td width="50%" valign="top">
+<a href="https://github.com/DONALDOLI1/Logic-gates-learning-board"><img src="https://raw.githubusercontent.com/DONALDOLI1/Logic-gates-learning-board/main/images/BANC%20DIDACTIQUE%20A%20PORTES%20LOGIQUES%20PANEL-2.jpg" alt="Logic gates learning board" width="100%" /></a>
+<h3>Logic Gates Learning Board</h3><p>KiCad design of an educational board for studying and experimenting with the main logic gates used in digital electronics.</p><p><sub>Digital design — not physically manufactured or tested.</sub></p><a href="https://github.com/DONALDOLI1/Logic-gates-learning-board">View project →</a>
+</td><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board"><img src="https://raw.githubusercontent.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board/main/images/IMG-20260427-WA0025-2.jpg" alt="Custom ATmega328P development board" width="100%" /></a>
 <h3>ATmega328P Custom Arduino Board</h3><p>KiCad 9.0.7 design of a custom ATmega328P board featuring 5 V / 3.3 V regulation and I/O connectivity.</p><p><sub>Board manufactured, assembled and tested — programmed with Arduino IDE via an FTDI USB-to-serial adapter.</sub></p><a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board">View project →</a>
-</td></tr></table>
+</td></tr>
+</table>
 
 [Explore all my GitHub repositories →](https://github.com/DONALDOLI1?tab=repositories)
 
