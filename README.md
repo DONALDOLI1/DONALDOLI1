@@ -56,6 +56,8 @@ Conception sous KiCad d'une carte d'adaptation pour Arduino Nano, équipée de b
 <p align="center"><a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER">Consulter le projet →</a></p>
 
 
+Découvrez également quelques-uns de mes autres projets :
+
 <table>
 <tr><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/LED-Display-Control-Board"><img src="https://raw.githubusercontent.com/DONALDOLI1/LED-Display-Control-Board/main/3D_DESIGN/IMG-20261115-WA0006.jpg" alt="Vue 3D de la carte de commande d'affichage LED" width="100%" /></a>
@@ -135,6 +137,8 @@ KiCad design of an Arduino Nano adapter board featuring screw terminals to simpl
 
 <p align="center"><a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER">View project →</a></p>
 
+
+Explore some of my other projects:
 
 <table>
 <tr><td width="50%" valign="top">
