@@ -55,7 +55,6 @@ Conception sous KiCad d'une carte d'adaptation pour Arduino Nano, équipée de b
 
 <p align="center"><a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER">Consulter le projet →</a></p>
 
-## Projets sélectionnés
 
 <table>
 <tr><td colspan="2" valign="top">
@@ -136,7 +135,6 @@ KiCad design of an Arduino Nano adapter board featuring screw terminals to simpl
 
 <p align="center"><a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER">View project →</a></p>
 
-## Selected projects
 
 <table>
 <tr><td colspan="2" valign="top">
