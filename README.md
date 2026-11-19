@@ -77,6 +77,12 @@ Conception d'une carte électronique de commande pour un affichage LED séquenti
 <h3>ATmega328P Custom Arduino Board</h3><p>Conception sous KiCad 9.0.7 d’une carte personnalisée autour de l’ATmega328P, avec régulation 5 V / 3,3 V et connectique d’entrées/sorties.</p><p><sub>Carte fabriquée, assemblée et testée — programmation Arduino IDE via adaptateur FTDI USB-série.</sub></p><a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board">Consulter le projet →</a>
 </td></tr></table>
 
+<table>
+<tr><td width="50%" valign="top">
+<a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER"><img src="https://raw.githubusercontent.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER/main/images/ADAPTATEUR%20NANO-2.jpg" alt="Arduino Nano Terminal Adapter" width="100%" /></a>
+<h3>Arduino Nano Terminal Adapter</h3><p>Conception sous KiCad d'une carte d'adaptation pour Arduino Nano, avec borniers à vis destinés à faciliter le raccordement des broches et des périphériques.</p><p><sub>Conception numérique — contrôles DRC réussis sans erreur ; carte non fabriquée, assemblée ni testée physiquement.</sub></p><a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER">Consulter le projet →</a>
+</td></tr></table>
+
 [Voir l’ensemble de mes dépôts GitHub →](https://github.com/DONALDOLI1?tab=repositories)
 
 ## Formation & développement
@@ -152,6 +158,12 @@ Design of an electronic control board for a sequential LED display showing the m
 <tr><td width="50%" valign="top">
 <a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board"><img src="https://raw.githubusercontent.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board/main/images/IMG-20260427-WA0025-2.jpg" alt="Custom ATmega328P development board" width="100%" /></a>
 <h3>ATmega328P Custom Arduino Board</h3><p>KiCad 9.0.7 design of a custom ATmega328P board featuring 5 V / 3.3 V regulation and I/O connectivity.</p><p><sub>Board manufactured, assembled and tested — programmed with Arduino IDE via an FTDI USB-to-serial adapter.</sub></p><a href="https://github.com/DONALDOLI1/ATmega328P-Custom-Arduino-Board">View project →</a>
+</td></tr></table>
+
+<table>
+<tr><td width="50%" valign="top">
+<a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER"><img src="https://raw.githubusercontent.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER/main/images/ADAPTATEUR%20NANO-2.jpg" alt="Arduino Nano Terminal Adapter" width="100%" /></a>
+<h3>Arduino Nano Terminal Adapter</h3><p>KiCad design of an Arduino Nano adapter board featuring screw terminals to simplify pin and peripheral connections.</p><p><sub>Digital design — DRC checks passed with no errors; board not physically manufactured, assembled or tested.</sub></p><a href="https://github.com/DONALDOLI1/-ARDUINO-NANO-TERMINAL-ADAPTER">View project →</a>
 </td></tr></table>
 
 [Explore all my GitHub repositories →](https://github.com/DONALDOLI1?tab=repositories)
