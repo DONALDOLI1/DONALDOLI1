@@ -1,0 +1,83 @@
+name: Update profile slideshow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/*.jpg'
+      - 'assets/*.jpeg'
+      - 'assets/*.png'
+      - 'assets/*.webp'
+      - '.github/workflows/update-profile-slideshow.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Pillow
+        run: python -m pip install Pillow
+
+      - name: Build animated GIF
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+
+          folder = Path("assets")
+          output = folder / "portfolio-slideshow.gif"
+          extensions = {".jpg", ".jpeg", ".png", ".webp"}
+
+          files = sorted(
+              p for p in folder.iterdir()
+              if p.suffix.lower() in extensions
+          )
+
+          if not files:
+              raise SystemExit("No source images found.")
+
+          frames = []
+          size = (720, 405)
+
+          for path in files:
+              with Image.open(path) as source:
+                  img = source.convert("RGB")
+                  img.thumbnail(size, Image.Resampling.LANCZOS)
+
+                  canvas = Image.new("RGB", size, (13, 17, 23))
+                  x = (size[0] - img.width) // 2
+                  y = (size[1] - img.height) // 2
+                  canvas.paste(img, (x, y))
+                  frames.append(canvas)
+
+          frames[0].save(
+              output,
+              save_all=True,
+              append_images=frames[1:],
+              duration=3000,
+              loop=0,
+              optimize=True,
+              disposal=2
+          )
+          PY
+
+      - name: Commit generated slideshow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/portfolio-slideshow.gif
+          if git diff --cached --quiet; then
+            echo "No slideshow changes."
+          else
+            git commit -m "chore: update profile slideshow"
+            git push
+          fi
